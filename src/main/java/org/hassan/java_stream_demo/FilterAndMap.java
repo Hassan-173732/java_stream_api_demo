@@ -10,7 +10,7 @@ import java.util.stream.Collectors;
 
 
 @Getter
-@Setter
+
 @NoArgsConstructor
 public class FilterAndMap {
     private final List<Integer> intList = List.of(2 , 5 , 7, 14, 10, 55, 66, 88, 96, 4, 11, 17, 24, 78, 87, 90);
