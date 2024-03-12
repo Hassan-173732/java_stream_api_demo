@@ -10,9 +10,11 @@ import java.util.stream.Collectors;
 
 
 @Getter
-
 @NoArgsConstructor
 public class FilterAndMap {
+    /*Filter and Map:
+    Create a list of integers and use Java Streams to filter out the even numbers and then square the remaining ones.*/
+
     private final List<Integer> intList = List.of(2 , 5 , 7, 14, 10, 55, 66, 88, 96, 4, 11, 17, 24, 78, 87, 90);
 
      public List<Integer> GetListOfEvenNumber(){
